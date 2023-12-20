@@ -51,3 +51,29 @@ int main()
 
     return 0;
 }
+
+
+factorial with recurssion
+#include <stdio.h>
+int a(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    } else {
+        return n * a(n - 1);
+    }
+}
+
+int main() {
+    int num;
+
+    printf("Enter a number to calculate its a: ");
+    scanf("%d", &num);
+
+    if (num < 0) {
+        printf("a is not defined for negative numbers.\n");
+    } else {
+        printf("a of %d is: %d\n", num, a(num));
+    }
+
+    return 0;
+}
