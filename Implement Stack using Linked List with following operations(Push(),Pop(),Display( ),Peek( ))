@@ -71,7 +71,7 @@ void peek()
 }
 int main()
 {
-	printf("Name:Jeevitha\nReg No:192324020\n");
+	printf("Name:RITHIK\nReg No:192321092\n");
 		printf("\nThe choices\n1.Push\n2.Pop\n3.Display\n4.Peek\n\n");
 	int a=0,b=0;
 	while(a!=5)
