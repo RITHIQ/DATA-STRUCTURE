@@ -45,7 +45,7 @@ void rev() {
 
 
 int main() {
-    printf("Name: Jeevitha\nReg No:192324020\n");
+    printf("Name: rithik\nReg No:192321092\n");
     ins_end(1);
     ins_end(2);
     ins_end(3);
