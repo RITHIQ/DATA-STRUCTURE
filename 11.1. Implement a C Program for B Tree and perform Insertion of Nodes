@@ -97,7 +97,7 @@ void inOrderTraversal(struct BTreeNode* root) {
 }
 
 int main() {
-	printf("Name:Jeevitha\nReg No:192324020\n");
+	printf("Name:rithik\nReg No:192321092\n");
     struct BTreeNode* root = createNode();
 
     int keys[] = {0,1,2,3,4,5,6};
